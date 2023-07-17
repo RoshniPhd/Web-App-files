@@ -139,7 +139,7 @@ function BasicDropzone(props) {
     // setTextArea(<Skeleton variant="rounded" height={150} />)
     console.log(files)
     console.log(data)
-    axios.post("http://localhost:8001/im_size", data)
+    axios.post("http://roshniphd.pythonanywhere.com/im_size", data)
     .then(res => { 
         console.log(res)
         // setCaption(res.data["caption"])
